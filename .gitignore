@@ -1,0 +1,37 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Node / frontend
+node_modules/
+dist/
+coverage/
+
+# Build/runtime artifacts
+*.log
+*.pid
+*.sqlite3
+
+# Environment files
+.env
+.env.*
+!.env.example
+infra/.env
+
+# Docker volumes/temp
+*.tar
