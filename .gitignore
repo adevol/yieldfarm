@@ -35,3 +35,7 @@ infra/.env
 
 # Docker volumes/temp
 *.tar
+
+# for development
+roadmap.md
+implementation_plan.md
